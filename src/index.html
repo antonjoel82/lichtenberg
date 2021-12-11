@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>11 - Textures</title>
+    <title>Lichtenberg</title>
   </head>
-  <body onload="draw()" style="background-color: black; color: white">
-    <canvas width="1000" height="1000" id="canvas" class="webgl"></canvas>
+  <body onload="generateLichtenberg()" style="background-color: black; color: white">
+    <canvas id="canvas" class="webgl" width="800px" height="800px"></canvas>
+    <button onclick="generateLichtenberg()">Generate</button>
   </body>
 </html>
